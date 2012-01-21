@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Super simple job queue over AMQP}
 
-  s.extra_rdoc_files = [ "README.rdoc" ]
   s.files = Dir.glob("lib/**/*") + %w(Rakefile)
   s.test_files = Dir.glob("spec/**/*") + Dir.glob("examples/*")
 
