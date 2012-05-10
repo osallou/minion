@@ -3,10 +3,10 @@ require "amqp"
 require "bunny"
 require "json" unless defined? ActiveSupport::JSON
 require "uri"
-require "minion/handler"
-require "minion/version"
-require "minion/message"
-require "ext/string"
+require "mb-minion/handler"
+require "mb-minion/version"
+require "mb-minion/message"
+require "mb-ext/string"
 
 module Minion
   extend self

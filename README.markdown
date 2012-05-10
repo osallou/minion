@@ -43,7 +43,7 @@ needs to be a hash.
 
 ## Processing a job ##
 
-	require 'minion'
+	require 'mb-minion'
 
 	include Minion
 

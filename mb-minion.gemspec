@@ -2,10 +2,10 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require "minion/version"
+require "mb-minion/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{minion}
+  s.name = %q{mb-minion}
   s.version = Minion::VERSION
   s.platform = Gem::Platform::RUBY
 
@@ -14,12 +14,12 @@ Gem::Specification.new do |s|
   s.date = %q{2010-07-28}
   s.description = %q{Super simple job queue over AMQP}
   s.email = %q{orion@heroku.com}
-  s.homepage = %q{http://github.com/orionz/minion}
+  s.homepage = %q{http://github.com/osallou/minion}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_path = "lib"
   s.rubyforge_project = %q{minion}
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{Super simple job queue over AMQP}
+  s.summary = %q{Super simple job queue over AMQP, forked from jgwmaxwell/minion for latest rabbitmq support}
 
   s.files = Dir.glob("lib/**/*") + %w(Rakefile)
   s.test_files = Dir.glob("spec/**/*") + Dir.glob("examples/*")
