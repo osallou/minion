@@ -1,7 +1,11 @@
-
 # Minion: super simple job queue over amqp #
 
 Minion makes processing jobs over AMQP simple and easy.
+
+## Warning ##
+
+I got issues with this minion version with latest rabbit (>1.0.8) and AMQP, getting errors at setup.
+I do not use anymore this code, using directly the AMQP code.
 
 ## Setup ##
 
